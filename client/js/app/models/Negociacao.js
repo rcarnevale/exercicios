@@ -9,6 +9,7 @@ class Negociacao {
         this._valor = valor;
 
         Object.freeze(this);
+        //o .freeze congela todas as propriedades
     }
 
     get volume() {
@@ -28,4 +29,4 @@ class Negociacao {
     get valor() {
         return this._valor;
     }
-};
+}
