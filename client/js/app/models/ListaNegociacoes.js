@@ -1,6 +1,6 @@
 class ListaNegociacoes {
 
-    constructor(mensagem){
+    constructor(){
 
         this._negociacoes = [];
         //this._postaMensagem = mensagem;
